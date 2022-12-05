@@ -12,18 +12,6 @@ function App() {
   const [data, setData] = useState([]);
   const [searching, setSearching] = useState("");
   const [fetched, setFetched] = useState(true);
-  // let url = `http://api.weatherstack.com/current?access_key=46cc6dac0a6d85a637f8ada125048701&query=${searching}`;
-  // async function fetching() {
-  //   let res = await fetch(url);
-  //   let response = await res.json();
-  //   if (response.success === false) {
-  //     setFetched(false);
-  //   } else {
-  //     let newArr = [...data, response];
-  //     setFetched(true);
-  //     setData(newArr);
-  //   }
-  // }
 
   const params = {
     access_key: "12413d12510d42113973019d39df135c",
